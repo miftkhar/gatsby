@@ -96,14 +96,19 @@ sudo apt-get install curl
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 ```
+4. Run this command
 
-4. Confirm this has worked. The output should be a version number.
+```shell
+source ~/.nvm/nvm.sh
+```
+
+5. Confirm this has worked. The output should be a version number.
 
 ```shell
 nvm --version
 ```
 
-5. Continue with the section: [Set default Node.js version](#set-default-nodejs-version)
+6. Continue with the section: [Set default Node.js version](#set-default-nodejs-version)
 
 #### Arch, Manjaro and other `pacman` based distros:
 
